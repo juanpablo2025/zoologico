@@ -15,9 +15,9 @@ public class Familia {
 
         //Este metodo muestra los nombres de los integrantes de la familia
         System.out.println(
-                "El papá es: "+this.papa.nombre+
-                        "\nLa mamá es: "+this.mama.nombre+
-                            "\nEl hijo es: "+this.hijo.nombre
+                "El papá es: "+this.papa.getNombre()+
+                        "\nLa mamá es: "+this.mama.getNombre()+
+                            "\nEl hijo es: "+this.hijo.getNombre()
         );
 
     }
@@ -27,13 +27,13 @@ public class Familia {
         if(this.papa.pareja!=null){
 
             Animal hijo= new Animal();
-            hijo.nombre=nombre;
-            hijo.peso=1;
+            hijo.setNombre(nombre);
+            hijo.setPeso(1);
             double random = Math.random();
             if(random<0.5){
-                hijo.genero="F";
+                hijo.setGenero("F");
             }else{
-                hijo.genero="M";
+                hijo.setGenero("M");
             }
             this.hijo=hijo;
 
