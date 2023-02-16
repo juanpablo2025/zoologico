@@ -13,7 +13,7 @@ public class Animal {
         this.peso = peso;
     }
 
-    void encontrarPareja(Animal pareja){
+    public void encontrarPareja(Animal pareja){
         this.pareja=pareja;
     }
 
