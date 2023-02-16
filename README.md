@@ -21,7 +21,7 @@ principal?
 - String nombre y genero
 
 - ¿Qué pasa si eliminamos la línea 17 de la clase Zoologico?
-- al imprimir el padre queda null
+- al imprimir "this.hijo" queda null
 
 
 - ¿Cuántos métodos tiene la clase Familia?
@@ -32,7 +32,7 @@ Familia?
 - 1 el parametro nombre
 
 - ¿Cuántos atributos inicializa el constructor de la clase Familia?
-- 2 atributos papa y mama
+- 3 atributos papa  mama e hijo
 
 - ¿Qué tipo de retorno tiene el método tenerHijo()?
 -no retorna nada porque es un void
