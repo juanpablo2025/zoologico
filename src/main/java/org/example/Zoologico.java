@@ -9,12 +9,13 @@ public class Zoologico {
         animal1.genero="F";
 
 
-        animal animal2 = new animal();
+        Animal animal2 = new Animal();
         animal2.nombre="Caballo";
         animal2.genero="M";
 
 
         animal1.encontrarPareja(animal2);
+        animal2.encontrarPareja(animal1);
 
 
         Familia familia = new Familia(animal2,animal1);
